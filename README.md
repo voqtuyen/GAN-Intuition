@@ -6,9 +6,13 @@
 
 2. Parametric modelling
 
+A parametric model is a family of probability distributions that has a finite number of parameters
 
+3. Sample Space
 
+The sample space is the complete set of all values an observation x can take
 
+4. Probability Density Function (or simply density function)
 
 
 ## Reference
