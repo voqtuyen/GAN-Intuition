@@ -16,5 +16,7 @@ The sample space is the complete set of all values an observation x can take
 4. Probability Density Function (or simply density function)
 
 
+5. Joint probability and conditional probability
+
 ## Reference
 1. https://www.statisticshowto.datasciencecentral.com/data-distribution/
