@@ -25,11 +25,15 @@ The sample space is the complete set of all values an observation x can take
 
 The discriminator is a binary classifier to distinguish if the input 𝑥 is real (from real data) or fake (from the generator). Typically, the discriminator outputs a scalar prediction 𝑜 ∈ ℝ  for input 𝐱, such as using a dense layer with hidden size 1, and then applies sigmoid function to obtain the predicted probability 𝐷(𝐱) = 1 / (1+𝑒−𝑜) . Assume the label 𝑦 for true data is 1 and 0 for fake data. We train the discriminator to minimize the cross entropy loss
 
-  min −𝑦log𝐷(𝐱) − (1−𝑦)log(1−𝐷(𝐱)),
+min −𝑦log𝐷(𝐱) − (1−𝑦)log(1−𝐷(𝐱)),
+
+![BCE Loss](assets/bce_loss.png)
 
 For the generator, it first draws some parameter 𝐳 ∈ ℝ𝑑 from a source of randomness, e.g. a normal distribution 𝐳∼(0,1). We often call 𝐳 the latent variable. It then applies a function to generate 𝐱′ = 𝐺(𝐳). The goal of the generator is to fool the discriminator to classify 𝐱′ as true data. In other words, we update the parameters of the generator to maximize the cross entropy loss when 𝑦 = 0
 
-![BCE Loss](assets/bce_loss.png)
+max−log(1−𝐷(𝐱′))
+
+
 
 ## Reference
 1. https://www.statisticshowto.datasciencecentral.com/data-distribution/
