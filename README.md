@@ -49,6 +49,7 @@ which is just feed  𝐱′  into the discriminator but giving label  𝑦=1
 
 - Gradient accumulation: https://medium.com/huggingface/training-larger-batches-practical-tips-on-1-gpu-multi-gpu-distributed-setups-ec88c3e51255
 - Strided convolution versus pooling: https://stats.stackexchange.com/questions/387482/pooling-vs-stride-for-downsampling
+- Transposed convolution: https://medium.com/activating-robotic-minds/up-sampling-with-transposed-convolution-9ae4f2df52d0
 
 
 ## Reference
