@@ -31,9 +31,11 @@ min −𝑦log𝐷(𝐱) − (1−𝑦)log(1−𝐷(𝐱)),
 
 For the generator, it first draws some parameter 𝐳 ∈ ℝ𝑑 from a source of randomness, e.g. a normal distribution 𝐳∼(0,1). We often call 𝐳 the latent variable. It then applies a function to generate 𝐱′ = 𝐺(𝐳). The goal of the generator is to fool the discriminator to classify 𝐱′ as true data. In other words, we update the parameters of the generator to maximize the cross entropy loss when 𝑦 = 0
 
-max−log(1−𝐷(𝐱′))
+max −log(1−𝐷(𝐱′))
 
 ![Graph transform](assets/graph_transform.png)
+
+As shown in the graph, maximizing -log(1−𝐷(𝐱′)) is equivalent to minimizing log(1−𝐷(𝐱′)). And minimizing log(1−𝐷(𝐱′)) is equivalent to maximizing log(𝐷(𝐱′))
 
 ## Reference
 1. https://www.statisticshowto.datasciencecentral.com/data-distribution/
