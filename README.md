@@ -29,7 +29,7 @@ The discriminator is a binary classifier to distinguish if the input 𝑥 is rea
 
 For the generator, it first draws some parameter 𝐳 ∈ ℝ𝑑 from a source of randomness, e.g. a normal distribution 𝐳∼(0,1). We often call 𝐳 the latent variable. It then applies a function to generate 𝐱′ = 𝐺(𝐳). The goal of the generator is to fool the discriminator to classify 𝐱′ as true data. In other words, we update the parameters of the generator to maximize the cross entropy loss when 𝑦 = 0
 
-
+![BCE Loss](assets/bce_loss.png)
 
 ## Reference
 1. https://www.statisticshowto.datasciencecentral.com/data-distribution/
