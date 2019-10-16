@@ -45,5 +45,11 @@ As shown in the graph, maximizing -log(1−𝐷(𝐱′)) is equivalent to minim
  
 which is just feed  𝐱′  into the discriminator but giving label  𝑦=1 
 
+### Tricks
+
+- Gradient accumulation: https://medium.com/huggingface/training-larger-batches-practical-tips-on-1-gpu-multi-gpu-distributed-setups-ec88c3e51255
+- Strided convolution versus pooling: https://stats.stackexchange.com/questions/387482/pooling-vs-stride-for-downsampling
+
+
 ## Reference
 1. https://www.statisticshowto.datasciencecentral.com/data-distribution/
