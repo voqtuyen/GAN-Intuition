@@ -33,7 +33,7 @@ For the generator, it first draws some parameter 𝐳 ∈ ℝ𝑑 from a source 
 
 max−log(1−𝐷(𝐱′))
 
-
+![Graph transform](assets/graph_transform.png)
 
 ## Reference
 1. https://www.statisticshowto.datasciencecentral.com/data-distribution/
