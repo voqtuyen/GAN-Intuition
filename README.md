@@ -45,6 +45,9 @@ As shown in the graph, maximizing -log(1−𝐷(𝐱′)) is equivalent to minim
  
 which is just feed  𝐱′  into the discriminator but giving label  𝑦=1 
 
+### Debugging
+- Mode collapse: https://machinelearningmastery.com/practical-guide-to-gan-failure-modes/
+
 ### Tricks
 
 - Gradient accumulation: https://medium.com/huggingface/training-larger-batches-practical-tips-on-1-gpu-multi-gpu-distributed-setups-ec88c3e51255
