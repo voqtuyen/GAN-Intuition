@@ -47,6 +47,9 @@ which is just feed  𝐱′  into the discriminator but giving label  𝑦=1
 
 ### Debugging
 - Mode collapse: https://machinelearningmastery.com/practical-guide-to-gan-failure-modes/
+- https://arxiv.org/pdf/1701.04862.pdf
+- https://arxiv.org/pdf/1606.03498.pdf
+
 
 ### Tricks
 
