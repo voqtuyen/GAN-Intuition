@@ -49,7 +49,7 @@ which is just feed  𝐱′  into the discriminator but giving label  𝑦=1
 - Mode collapse: https://machinelearningmastery.com/practical-guide-to-gan-failure-modes/
 - https://arxiv.org/pdf/1701.04862.pdf
 - https://arxiv.org/pdf/1606.03498.pdf
-
+- https://sebastianraschka.com/pdf/lecture-notes/stat479ss19/L17_gan_slides.pdf
 
 ### Tricks
 
