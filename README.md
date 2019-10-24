@@ -60,6 +60,7 @@ which is just feed  𝐱′  into the discriminator but giving label  𝑦=1
 ### GAN architectures
 
 - https://machinelearningmastery.com/a-gentle-introduction-to-the-biggan/
+- https://sthalles.github.io/advanced_gans/
 
 
 ## Reference
